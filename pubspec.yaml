@@ -1,0 +1,50 @@
+name: smart_movie_client
+description: Smart Movie Recommendation Platform - Client Mobile
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP & Storage
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+
+  # URL Launcher
+  url_launcher: ^6.2.5
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # UI Components
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  font_awesome_flutter: ^10.7.0
+
+  # YouTube Player
+  youtube_player_flutter: ^8.1.2
+  video_player: ^2.8.3
+  chewie: ^1.7.4
+
+dependency_overrides:
+  flutter_inappwebview: ^6.1.5
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
